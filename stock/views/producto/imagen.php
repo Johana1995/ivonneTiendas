@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-<img src="../../../assets/images/apple-2-icon.png" alt="noimagen">
+<img src="../../../img/apple-2-icon.png" alt="noimagen">
 
 </body>
 </html>

@@ -2,7 +2,7 @@
 <?php
 $directory_self = str_replace(basename($_SERVER['PHP_SELF']), '', $_SERVER['PHP_SELF']);
 
-$uploadsDirectory = $_SERVER['DOCUMENT_ROOT'] . $directory_self . 'images/';
+$uploadsDirectory = $_SERVER['DOCUMENT_ROOT'] . $directory_self . 'img/';
 
 $uploadForm = 'http://' . $_SERVER['HTTP_HOST'] . $directory_self . 'upload.php';
 
@@ -25,7 +25,7 @@ or error($errors[$_FILES[$fieldname]['error']], $uploadForm);
 or error('no es una subida http', $uploadForm);
 
 @getimagesize($_FILES[$fieldname]['tmp_name'])
-or error('solo esta permitido subir images', $uploadForm);
+or error('solo esta permitido subir img', $uploadForm);
 
 if(file_exists($uploadFilename = $uploadsDirectory.'image-'.$_FILES[$fieldname]['name'])) {
     @move_uploaded_file($_FILES[$fieldname]['tmp_name'], $uploadFilename)

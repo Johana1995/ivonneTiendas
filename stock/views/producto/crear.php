@@ -1,5 +1,10 @@
 <?php
-include 'layout/header.php'
+
+include 'layout/tittle.php';
+include 'layout/head.php';
+include 'layout/nav.php';
+include 'layout/lateral.php';
+
 ?>
 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
 
@@ -49,6 +54,8 @@ include 'layout/header.php'
     </div>
 </form>
 </div>
+
 <?php
-include 'layout/cuerpo.php'
+include 'assets/js/script_footer.php';
+include 'layout/foot.php'
 ?>

@@ -24,6 +24,10 @@ class SiteController extends Controller
         ]);
 
     }
+public function logoutAction()
+{
+    session_destroy();  header("location: login.php");
 
+}
 
 }

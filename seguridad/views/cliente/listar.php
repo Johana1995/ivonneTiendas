@@ -34,5 +34,5 @@ include 'layout/header.php'
 </table>
 </div>
 <?php
-include 'layout/cuerpo.php'
+include 'layout/foot.php'
 ?>

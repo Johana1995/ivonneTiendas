@@ -19,7 +19,7 @@ class ProductoController extends Controller
     {
         $model = new ProductoModel();
         $var= $model->listarimagenes();
-        $this->view->show(self::module,self::model.'/images', [
+        $this->view->show(self::module,self::model.'/img', [
             'productos' => $var,
             'module'=>self::module,
             'controller'=>self::model

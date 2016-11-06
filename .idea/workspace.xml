@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1d68335-ba27-48a9-b52e-40aabab642c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/VentanaCentrada.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/script_footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/isloged.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/head.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/lateral.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/nav.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/layout/tittle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movimiento/models/VentaModel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf/documentos/res/factura_html.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/saludo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/layout/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/agregar_facturacion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/autocomplete/clientes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/buscar_clientes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/buscar_facturas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/buscar_productos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/buscar_usuarios.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_cliente.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_factura.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_facturacion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_producto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/editar_usuario.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/is_logged.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/nuevo_cliente.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/nuevo_producto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/nuevo_usuario.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/pagination.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/productos_factura.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/classes/Login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/config/conexion.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/config/db.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/config/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/controllers/VentaController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/crear.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/editar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/VentanaCentrada.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/clientes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/editar_factura.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/facturas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/nueva_factura.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/productos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/js/usuarios.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/libraries/password_compatibility_library.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/cambiar_password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/editar_clientes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/editar_productos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/editar_usuarios.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/registro_productos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/registro_usuarios.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modalProductos.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/models/VentaModel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/nueva_factura.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/res/factura_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/res/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/index.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/modal.css" afterPath="$PROJECT_DIR$/movimiento/views/venta/listar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/1.png" afterPath="$PROJECT_DIR$/img/1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/apple-2-icon.png" afterPath="$PROJECT_DIR$/img/apple-2-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/layout/cuerpo.php" afterPath="$PROJECT_DIR$/layout/foot.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/ajax/index.php" afterPath="$PROJECT_DIR$/img/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/classes/index.php" afterPath="$PROJECT_DIR$/pdf/documentos/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/css/index.php" afterPath="$PROJECT_DIR$/pdf/documentos/res/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/img/ajax-loader.gif" afterPath="$PROJECT_DIR$/img/ajax-loader.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/img/avatar_2x.png" afterPath="$PROJECT_DIR$/img/avatar_2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/img/index.php" afterPath="$PROJECT_DIR$/pdf/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/img/logo-icon.png" afterPath="$PROJECT_DIR$/img/logo-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/img/logo.jpg" afterPath="$PROJECT_DIR$/img/logo.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/buscar_productos.php" afterPath="$PROJECT_DIR$/layout/buscar_productos.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/modal/registro_clientes.php" afterPath="$PROJECT_DIR$/layout/registro_clientes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/exception.class.php" afterPath="$PROJECT_DIR$/pdf/_class/exception.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/locale.class.php" afterPath="$PROJECT_DIR$/pdf/_class/locale.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/myPdf.class.php" afterPath="$PROJECT_DIR$/pdf/_class/myPdf.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/parsingCss.class.php" afterPath="$PROJECT_DIR$/pdf/_class/parsingCss.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/parsingHtml.class.php" afterPath="$PROJECT_DIR$/pdf/_class/parsingHtml.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_class/tcpdfConfig.php" afterPath="$PROJECT_DIR$/pdf/_class/tcpdfConfig.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/2dbarcodes.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/2dbarcodes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/CHANGELOG.TXT" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/CHANGELOG.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/LICENSE.TXT" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/LICENSE.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/README.TXT" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/README.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/barcodes.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/barcodes.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/cache/chapter_demo_1.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/cache/chapter_demo_1.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/cache/chapter_demo_2.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/cache/chapter_demo_2.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/cache/table_data_demo.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/cache/table_data_demo.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/cache/utf8test.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/cache/utf8test.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/lang/bra.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/lang/bra.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/lang/eng.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/lang/eng.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/lang/ger.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/lang/ger.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/lang/ita.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/lang/ita.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/tcpdf_config.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/tcpdf_config.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/config/tcpdf_config_alt.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/config/tcpdf_config_alt.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/doc/read_me.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/doc/read_me.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/examples/read_me.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/examples/read_me.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/README.TXT" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/README.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/ZarBold.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/ZarBold.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/ZarBold.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/ZarBold.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/almohanad.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/almohanad.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/almohanad.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/almohanad.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/almohanad.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/almohanad.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/arialunicid0.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/arialunicid0.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/courier.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/courier.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/AUTHORS" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/AUTHORS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/BUGS" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/BUGS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/LICENSE" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/NEWS" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/NEWS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/README" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/README" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/langcover.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/langcover.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/status.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/status.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/unicover.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavu-fonts-ttf-2.30/unicover.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusans.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusans.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusans.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusans.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusans.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusans.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmono.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserif.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserif.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserif.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserif.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserif.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserif.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/dejavuserifi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/AUTHORS" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/AUTHORS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/COPYING" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/COPYING" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/CREDITS" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/CREDITS" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/ChangeLog" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/ChangeLog" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/INSTALL" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/INSTALL" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/README" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freefont-20090104/README" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemono.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemono.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemono.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemono.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemono.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemono.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonob.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonob.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonob.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonob.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonob.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonob.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonobi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonobi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonobi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonobi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonobi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonobi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonoi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonoi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonoi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonoi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freemonoi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freemonoi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesans.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesans.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesans.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesans.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesans.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesans.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freesansi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freesansi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserif.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserif.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserif.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserif.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserif.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserif.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifb.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifb.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifb.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifb.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifbi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifbi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifbi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifbi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifi.ctg.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifi.ctg.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/freeserifi.z" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/freeserifi.z" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/helvetica.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/helvetica.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/helveticab.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/helveticab.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/helveticabi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/helveticabi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/helveticai.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/helveticai.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/hysmyeongjostdmedium.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/hysmyeongjostdmedium.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/kozgopromedium.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/kozgopromedium.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/kozminproregular.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/kozminproregular.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/msungstdlight.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/msungstdlight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/stsongstdlight.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/stsongstdlight.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/symbol.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/symbol.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/times.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/times.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/timesb.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/timesb.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/timesbi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/timesbi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/timesi.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/timesi.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/uni2cid_ac15.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/uni2cid_ac15.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/uni2cid_ag15.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/uni2cid_ag15.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/uni2cid_aj16.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/uni2cid_aj16.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/uni2cid_ak12.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/uni2cid_ak12.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/README.TXT" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/README.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1250.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1250.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1251.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1251.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1252.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1252.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1253.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1253.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1254.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1254.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1255.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1255.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1257.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1257.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1258.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp1258.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp874.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/cp874.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-1.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-1.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-11.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-11.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-15.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-15.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-16.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-16.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-2.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-2.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-4.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-4.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-5.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-5.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-7.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-7.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-9.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/iso-8859-9.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/koi8-r.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/koi8-r.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/enc/koi8-u.map" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/enc/koi8-u.map" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/freetype6.dll" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/freetype6.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/makeallttffonts.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/makeallttffonts.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/makefont.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/makefont.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/pfm2afm" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/pfm2afm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/pfm2afm.exe" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/pfm2afm.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/src/pfm2afm-src.tar.gz" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/src/pfm2afm-src.tar.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/src/readme.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/src/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/src/ttf2ufm-src.tar.gz" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/src/ttf2ufm-src.tar.gz" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/ttf2ufm" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/ttf2ufm" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/ttf2ufm.exe" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/ttf2ufm.exe" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/utils/zlib1.dll" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/utils/zlib1.dll" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/zapfdingbats.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/zapfdingbats.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/fonts/zarbold.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/fonts/zarbold.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/htmlcolors.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/htmlcolors.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/images/read_me.txt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/images/read_me.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/qrcode.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/qrcode.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/tcpdf.crt" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/tcpdf.crt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/tcpdf.fdf" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/tcpdf.fdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/tcpdf.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/tcpdf.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/_tcpdf_5.0.002/unicode_data.php" afterPath="$PROJECT_DIR$/pdf/_tcpdf_5.0.002/unicode_data.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/factura_pdf.php" afterPath="$PROJECT_DIR$/pdf/documentos/factura_pdf.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/res/ver_factura_html.php" afterPath="$PROJECT_DIR$/pdf/documentos/res/ver_factura_html.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/documentos/ver_factura.php" afterPath="$PROJECT_DIR$/pdf/documentos/ver_factura.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/html2pdf.class.php" afterPath="$PROJECT_DIR$/pdf/html2pdf.class.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/ca.csv" afterPath="$PROJECT_DIR$/pdf/locale/ca.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/cs.csv" afterPath="$PROJECT_DIR$/pdf/locale/cs.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/da.csv" afterPath="$PROJECT_DIR$/pdf/locale/da.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/de.csv" afterPath="$PROJECT_DIR$/pdf/locale/de.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/en.csv" afterPath="$PROJECT_DIR$/pdf/locale/en.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/es.csv" afterPath="$PROJECT_DIR$/pdf/locale/es.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/fr.csv" afterPath="$PROJECT_DIR$/pdf/locale/fr.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/it.csv" afterPath="$PROJECT_DIR$/pdf/locale/it.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/nl.csv" afterPath="$PROJECT_DIR$/pdf/locale/nl.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/pt.csv" afterPath="$PROJECT_DIR$/pdf/locale/pt.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/movimiento/views/venta/pdf/locale/tr.csv" afterPath="$PROJECT_DIR$/pdf/locale/tr.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/modal.js" afterPath="$PROJECT_DIR$/assets/js/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/movimiento/controllers/VentaController.php" afterPath="$PROJECT_DIR$/movimiento/controllers/VentaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/cliente/crear.php" afterPath="$PROJECT_DIR$/seguridad/views/cliente/crear.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/cliente/editar.php" afterPath="$PROJECT_DIR$/seguridad/views/cliente/editar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/cliente/listar.php" afterPath="$PROJECT_DIR$/seguridad/views/cliente/listar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/empleado/crear.php" afterPath="$PROJECT_DIR$/seguridad/views/empleado/crear.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/empleado/editar.php" afterPath="$PROJECT_DIR$/seguridad/views/empleado/editar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seguridad/views/empleado/listar.php" afterPath="$PROJECT_DIR$/seguridad/views/empleado/listar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/controllers/SiteController.php" afterPath="$PROJECT_DIR$/site/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site/views/site/inicio.php" afterPath="$PROJECT_DIR$/site/views/site/inicio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/controllers/ProductoController.php" afterPath="$PROJECT_DIR$/stock/controllers/ProductoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/views/producto/crear.php" afterPath="$PROJECT_DIR$/stock/views/producto/crear.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/views/producto/editar.php" afterPath="$PROJECT_DIR$/stock/views/producto/editar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/views/producto/imagen.php" afterPath="$PROJECT_DIR$/stock/views/producto/imagen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/views/producto/listar.php" afterPath="$PROJECT_DIR$/stock/views/producto/listar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stock/views/producto/procesar.php" afterPath="$PROJECT_DIR$/stock/views/producto/procesar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validar.php" afterPath="$PROJECT_DIR$/validar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/validarSucursal.php" afterPath="$PROJECT_DIR$/validarSucursal.php" />
+    </list>
+    <ignored path="ivonneTiendas.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ivonneTiendas" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="crear.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/movimiento/views/venta/crear.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.21364452">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <folding>
+                <marker date="1478442471940" expanded="true" signature="2180:2227" placeholder="select * fro..listarempleados..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/assets/js/saludo.js" />
+        <option value="$PROJECT_DIR$/assets/js/modal.js" />
+        <option value="$PROJECT_DIR$/assets/css/modal.css" />
+        <option value="$PROJECT_DIR$/layout/title.php" />
+        <option value="$PROJECT_DIR$/layout/header.php" />
+        <option value="$PROJECT_DIR$/stock/views/producto/listar.php" />
+        <option value="$PROJECT_DIR$/layout/head.php" />
+        <option value="$PROJECT_DIR$/stock/views/producto/editar.php" />
+        <option value="$PROJECT_DIR$/seguridad/views/empleado/crear.php" />
+        <option value="$PROJECT_DIR$/seguridad/views/empleado/editar.php" />
+        <option value="$PROJECT_DIR$/seguridad/views/empleado/listar.php" />
+        <option value="$PROJECT_DIR$/movimiento/recursosPdf/nueva_factura.php" />
+        <option value="$PROJECT_DIR$/assets/logout.php" />
+        <option value="$PROJECT_DIR$/site/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/layout/nav.php" />
+        <option value="$PROJECT_DIR$/site/views/site/inicio.php" />
+        <option value="$PROJECT_DIR$/movimiento/views/crear.php" />
+        <option value="$PROJECT_DIR$/movimiento/views/listar.php" />
+        <option value="$PROJECT_DIR$/assets/js/nueva_factura.js" />
+        <option value="$PROJECT_DIR$/assets/ajax/autocomplete/clientes.php" />
+        <option value="$PROJECT_DIR$/assets/ajax/productos_factura.php" />
+        <option value="$PROJECT_DIR$/assets/ajax/agregar_facturacion.php" />
+        <option value="$PROJECT_DIR$/stock/views/producto/crear.php" />
+        <option value="$PROJECT_DIR$/assets/js/script_footer.php" />
+        <option value="$PROJECT_DIR$/assets/js/VentanaCentrada.js" />
+        <option value="$PROJECT_DIR$/pdf/documentos/factura_pdf.php" />
+        <option value="$PROJECT_DIR$/pdf/documentos/ver_factura.php" />
+        <option value="$PROJECT_DIR$/pdf/html2pdf.class.php" />
+        <option value="$PROJECT_DIR$/pdf/documentos/res/factura_html.php" />
+        <option value="$PROJECT_DIR$/movimiento/controllers/VentaController.php" />
+        <option value="$PROJECT_DIR$/layout/lateral.php" />
+        <option value="$PROJECT_DIR$/movimiento/models/VentaModel.php" />
+        <option value="$PROJECT_DIR$/movimiento/views/venta/listar.php" />
+        <option value="$PROJECT_DIR$/validar.php" />
+        <option value="$PROJECT_DIR$/validarSucursal.php" />
+        <option value="$PROJECT_DIR$/isloged.php" />
+        <option value="$PROJECT_DIR$/movimiento/views/venta/crear.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movimiento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ivonneTiendas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple_invoice" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ivonneTiendas\img" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\assets\js" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\layout" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ivonneTiendas" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\movimiento\views\venta" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\assets\js" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\movimiento\views" />
+      <recent name="C:\xampp\htdocs\ivonneTiendas\assets" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1d68335-ba27-48a9-b52e-40aabab642c0" name="Default" comment="" />
+      <created>1478366542370</created>
+      <option name="number" value="Default" />
+      <updated>1478366542370</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26928896" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/movimiento/controllers/VentaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/models/VentaModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <marker date="1478408745413" expanded="true" signature="729:900" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="729:911" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="1097:1104" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="1097:1251" placeholder="SELECT id,nu..venta..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/views/venta/listar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/lateral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/views/venta/crear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="81" selection-start-line="59" selection-start-column="27" selection-end-line="60" selection-end-column="81" />
+          <folding>
+            <marker date="1478442471940" expanded="true" signature="2180:2227" placeholder="select * fro..listarempleados..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/agregar_facturacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1478403321621" expanded="true" signature="367:423" placeholder="INSERT INTO tmp..." />
+            <marker date="1478403321621" expanded="true" signature="796:848" placeholder="select * fro..producto..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/nuevo_cliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/tittle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguridad/controllers/EmpleadoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/site/ingreso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9390681">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63978493">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6344086">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site/views/site/inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45698926">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/SPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51792115">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/buscar_productos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4265233">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/autocomplete/clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/conexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/foot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030520646">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/views/producto/crear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.538462">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/nueva_factura.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.345/VentanaCentrada.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/script_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/_class/myPdf.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/documentos/ver_factura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/documentos/res/ver_factura_html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030520646">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/apple-2-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/html2pdf.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42728904">
+          <caret line="1330" column="0" selection-start-line="1330" selection-start-column="0" selection-end-line="1330" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/VentanaCentrada.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/documentos/factura_pdf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.076923">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf/documentos/res/factura_html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-125.53846">
+          <caret line="192" column="76" selection-start-line="192" selection-start-column="76" selection-end-line="192" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/models/CajaModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="48" selection-start-line="13" selection-start-column="7" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/controllers/ProductoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stock/views/producto/listar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9389587">
+          <caret line="51" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/productos_factura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9389587">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout/lateral.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12208258">
+          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/ajax/agregar_facturacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.518851">
+          <caret line="17" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1478403321621" expanded="true" signature="367:423" placeholder="INSERT INTO tmp..." />
+            <marker date="1478403321621" expanded="true" signature="796:848" placeholder="select * fro..producto..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/models/VentaModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding>
+            <marker date="1478408745413" expanded="true" signature="729:900" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="729:911" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="1097:1104" placeholder="SELECT id,nu..venta..." />
+            <marker date="1478408745413" expanded="true" signature="1097:1251" placeholder="SELECT id,nu..venta..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/controllers/VentaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4578097">
+          <caret line="15" column="51" selection-start-line="13" selection-start-column="0" selection-end-line="15" selection-end-column="51" />
+          <folding>
+            <marker date="1478442335434" expanded="true" signature="146:235" placeholder="select e.id ..empleado..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validarSucursal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5798923">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <marker date="1478442335449" expanded="true" signature="162:221" placeholder="select id,no..sucursal..." />
+            <marker date="1478442335449" expanded="true" signature="440:499" placeholder="select c.id ..caja..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isloged.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18312387">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/views/venta/listar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66786355">
+          <caret line="30" column="122" selection-start-line="30" selection-start-column="122" selection-end-line="30" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/movimiento/views/venta/crear.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.21364452">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <marker date="1478442471940" expanded="true" signature="2180:2227" placeholder="select * fro..listarempleados..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

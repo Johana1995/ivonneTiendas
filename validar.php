@@ -11,9 +11,9 @@ $query= $db->prepare($sql2);
 $query->execute();
 $user=$query->fetch(PDO::FETCH_OBJ);
 if($query->rowCount() >0){
-	$_SESSION['id']=$user->id;
-	$_SESSION['nombre']=$user->nombre;
-	$_SESSION['apellido']=$user->apellido;
+	$_SESSION['empleado_id']=$user->id;
+	$_SESSION['empleado_nombre']=$user->nombre;
+	$_SESSION['empleado_apellido']=$user->apellido;
 
 	header('Location: index.php?module=site&controller=site&action=listarsucursales');
 

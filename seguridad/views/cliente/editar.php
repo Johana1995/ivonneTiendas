@@ -63,5 +63,5 @@ include 'layout/header.php'
     </form>
 </div>
 <?php
-include 'layout/cuerpo.php'
+include 'layout/foot.php'
 ?>
